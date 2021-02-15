@@ -1,0 +1,27 @@
+{
+  "name": "playwright-livecoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./specs/**/*.spec.ts --require ts-node/register --timeout 300000",
+    "test:allure": "ALLURE=1 mocha ./specs/**/*.spec.ts --require ts-node/register --timeout 300000 --reporter mocha-allure2-reporter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.8.0"
+  },
+  "dependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.25",
+    "assertior": "0.0.23",
+    "chai": "^4.3.0",
+    "chalk": "^4.1.0",
+    "mocha": "^8.2.1",
+    "mocha-allure2-reporter": "0.0.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
