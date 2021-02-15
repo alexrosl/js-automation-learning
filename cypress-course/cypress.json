@@ -1,0 +1,5 @@
+{
+  "defaultCommandTimeout": 6000,
+  "chromeWebSecurity": false,
+  "projectId": "n8utgc"
+}

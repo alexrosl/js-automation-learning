@@ -1,0 +1,19 @@
+{
+  "name": "cypress-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.4.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  },
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
