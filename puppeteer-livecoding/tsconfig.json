@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "sourceMap": true,
+    "outDir": "built",
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "lib/**/*.ts",
+    "specs/**/*.ts",
+    "framework/**/*.ts"
+  ]
+}
